@@ -1,0 +1,14 @@
+{
+  "extends": "@yandex-cloud/tsconfig/tsconfig",
+  "compilerOptions": {
+    "module": "esnext",
+    "rootDirs": ["src"],
+    "allowJs": false,
+    "declaration": true,
+    "importHelpers": true,
+    "outDir": "build/esm",
+    "baseUrl": "."
+  },
+  "include": ["src"],
+  "exclude": ["src/**/*.test.ts"]
+}
