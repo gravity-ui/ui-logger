@@ -6,12 +6,12 @@
   "files": [
     "build"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/yandex-cloud/ui-logger"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "main": "build/cjs/index.js",
   "module": "build/esm/index.js",
