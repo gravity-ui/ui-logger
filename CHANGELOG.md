@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/gravity-ui/ui-logger/compare/v1.0.0...v1.1.0) (2023-02-02)
+
+
+### Features
+
+* change organization ([#4](https://github.com/gravity-ui/ui-logger/issues/4)) ([5b4a0c0](https://github.com/gravity-ui/ui-logger/commit/5b4a0c02529b64990b24f72969aafb469ba203d9))
+
 ## 1.0.0 (2022-07-28)
 
 
