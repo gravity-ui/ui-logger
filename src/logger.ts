@@ -1,15 +1,15 @@
-import {DEFAULT_NAMESPACE, MIN_NAMESPACE_BUFFER, DEFAULT_BUFFER} from './constants';
+import {DEFAULT_BUFFER, DEFAULT_NAMESPACE, MIN_NAMESPACE_BUFFER} from './constants';
+import {parseError as defaultParseError, printLogItem} from './helpers';
 import {
+    DefaultSettings,
     ExtraData,
-    MessageLogItem,
-    MessageLogError,
-    MessageLogInfo,
-    MessageLog,
     LoggerContext,
     LoggerSettings,
-    DefaultSettings,
+    MessageLog,
+    MessageLogError,
+    MessageLogInfo,
+    MessageLogItem,
 } from './types';
-import {parseError as defaultParseError, printLogItem} from './helpers';
 
 const messageLog: MessageLog = {};
 const loggersByNamespace: Record<string, Logger> = {};

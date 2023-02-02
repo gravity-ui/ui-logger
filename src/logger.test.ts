@@ -1,5 +1,5 @@
-import logger from './logger';
 import {DEFAULT_NAMESPACE} from './constants';
+import logger from './logger';
 import {ParsedMessageLogError} from './types';
 
 describe('Logger', () => {

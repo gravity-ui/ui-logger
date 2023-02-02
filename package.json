@@ -1,5 +1,5 @@
 {
-  "name": "@yandex-cloud/ui-logger",
+  "name": "@gravity-ui/ui-logger",
   "version": "1.0.0",
   "description": "UI logger",
   "license": "MIT",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yandex-cloud/ui-logger"
+    "url": "https://github.com/gravity-ui/ui-logger"
   },
   "main": "build/cjs/index.js",
   "module": "build/esm/index.js",
@@ -42,16 +42,16 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
+    "@gravity-ui/eslint-config": "^2.0.0",
+    "@gravity-ui/prettier-config": "^1.0.1",
+    "@gravity-ui/tsconfig": "^1.0.0",
     "@types/jest": "^27.0.0",
-    "@yandex-cloud/eslint-config": "^1.0.1",
-    "@yandex-cloud/prettier-config": "^1.0.0",
-    "@yandex-cloud/tsconfig": "^1.0.0",
     "eslint": "^8.11.0",
     "husky": "^8.0.1",
     "jest": "^27.0.5",
     "lint-staged": "^13.0.3",
     "prettier": "^2.6.0",
     "ts-jest": "^27.0.3",
-    "typescript": "^4.7.4"
+    "typescript": "^4.9.5"
   }
 }

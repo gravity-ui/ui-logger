@@ -1,5 +1,5 @@
 import {REQUEST_ID_HEADER, TRACE_ID_HEADER} from './constants';
-import {MessageLogItem, LoggerContext} from './types';
+import {LoggerContext, MessageLogItem} from './types';
 
 function pickHeaders(headers: Record<string, string>): Record<string, string> {
     const pickedHeaders: Record<string, string> = {};
