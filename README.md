@@ -3,11 +3,11 @@
 ## Usage
 
 ```bash
-npm i @yandex-cloud/ui-logger
+npm i @gravity-ui/ui-logger
 ```
 
 ```ts
-import logger from '@yandex-cloud/ui-logger';
+import logger from '@gravity-ui/ui-logger';
 
 try {
   // logger.log(message: string, extraData?: Record<string, unknown>);
@@ -31,7 +31,7 @@ Possible reasons to create your own `namespace`:
 - For certain errors, you need a custom [error parser](#settings).
 
 ```ts
-import logger from '@yandex-cloud/ui-logger';
+import logger from '@gravity-ui/ui-logger';
 
 // Returns or creates a new logger instance with the name my_namespace
 const namedLogger = logger.get('my_namespace');
@@ -46,7 +46,7 @@ namedLogger.log('Will record to scope another_one');
 The settings can be either global for all loggers or local for a specific logger.
 
 ```ts
-import logger from '@yandex-cloud/ui-logger';
+import logger from '@gravity-ui/ui-logger';
 
 type DefaultSettings = {
   // The number of log records for each namespace. By default, 1000.
